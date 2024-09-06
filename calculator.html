@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        var num1 = parseInt(prompt("Enter first number: "));
+        var num2 = parseInt(prompt("Enter second number: "));
+        var char = prompt("Enter the operation: ");
+        var result;
+        if (char == '+'){
+            result = num1 + num2;
+        }
+        else if (char == '-'){
+            result = num1 - num2;
+        }
+        else if (char == '*'){
+            result = num1 * num2;
+        }
+        else if (char == '/'){
+            result = num1 / num2;
+        }
+        else{
+            result = "Invalid operation";
+        }
+        document.write("The result is: " + result);
+    </script>
+</body>
+</html>

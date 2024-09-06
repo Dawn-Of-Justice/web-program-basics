@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Dropdown</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Example Table with Dropdown</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>Alice</td>
+        <td>Developer</td>
+        <td>
+            <select>
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+                <option value="pending">Pending</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>Designer</td>
+        <td>
+            <select>
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+                <option value="pending">Pending</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
